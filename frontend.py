@@ -9,7 +9,7 @@ input_data = st.text_input("List some ingredients...")
 if st.button("Find Recipes"):
     if input_data:
         # Replace with the ngrok URL provided by Colab
-        colab_url = "https://df1c-34-123-81-139.ngrok-free.app"
+        colab_url = "https://2314-34-23-120-230.ngrok-free.app"
         endpoint_url = f"{colab_url}/run"
 
         with st.spinner("Waiting for AI response..."):
